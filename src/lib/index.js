@@ -2,7 +2,7 @@ import React from "react";
 import {
   Help05Introduction,
   //   Help20Karteninhalt,
-  Help80ModellfehlerMelden,
+  //  Help80ModellfehlerMelden,
   //   Help90Haftungsausschluss,
   Help99Footer,
 } from "@cismet-collab/rainhazardmaps-base-texts";
@@ -15,6 +15,7 @@ import Help40MeinStandort from "./help/Help40MeinStandort";
 import Help50WasserstandAbfragen from "./help/Help50WasserstandAbfragen";
 import Help60SimulierteSzenarien from "./help/Help60SimulierteSzenarien";
 import Help70AussagekraftDerSimulationen from "./help/Help70AussagekraftDerSimulationen";
+import Help80ModellfehlerMelden from "./help/Help80ModellfehlerMelden";
 import Help90Haftungsausschluss from "./help/Help90Haftungsausschluss";
 import Help98Kontakt from "./help/Help98Kontakt";
 
@@ -42,6 +43,15 @@ const getCollabedHelpComponentConfig = ({
   ];
   const menuFooter = (
     <Help99Footer
+      hintergrundkartenText=" DOP © LVGL | Basiskarte (grau/bunt) © cismet | Openmaptiles | ODbL"
+      taglineModelling={
+        <div>
+          <b>Modellierung</b> (Version 1.0 | 11/2021):{" "}
+          <a target="_model" href="https://www.izes.de/">
+            IZES gGmbH
+          </a>{" "}
+        </div>
+      }
       version={version}
       reactCismapRHMVersion={reactCismapRHMVersion}
       logoUrl={footerLogoUrl}

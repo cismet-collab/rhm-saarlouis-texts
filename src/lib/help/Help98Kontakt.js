@@ -1,9 +1,9 @@
 import React from "react";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import cismetLogo from "./assets/cismetSignet2k.png";
-import pecherLogo from "./assets/pecher.png";
-import klasLogo from "./assets/Signet_AIS_RZ.png";
-import customerLogo from "./assets/customerLogo.png";
+import izesLogo from "./assets/izes.png";
+
+import customerLogo from "./assets/logo-saarlouis.jpg";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Component = ({ email }) => {
@@ -15,26 +15,22 @@ const Component = ({ email }) => {
       sectionContent={
         <div>
           <p>
-            Für telefonische Auskünfte zum Umgang mit dem Auskunfts- und
-            Informationssystem Starkregen (AIS) stehen Ihnen die
-            Mitarbeiterinnen und Mitarbeiter der cismet GmbH zur Verfügung.
-          </p>
-          <p>
-            Weitere Informationen zum Thema „Schutz vor Starkregen“ finden Sie
-            auf der Homepage der Dr. Pecher AG.
+            Für telefonische Auskünfte zum Umgang mit der
+            Starkregengefahrenkarte Saarlouis, stehen Ihnen die Mitarbeiter und
+            Mitarbeiterinnen der Gemeinde Saarlouis zur Verfügung.
           </p>
 
           <p style={{ display: "flex" }}>
             <div>
-              Stadt
+              Kreisstadt Saarlouis
               <br />
-              Abteilung
+              Stabsstelle für Klimaschutz, Digitalisierung und Energiemanagement
               <br />
-              Straße
+              Großer Markt 1
               <br />
-              PLZ Stadt
+              66740 Saarlouis
               <br />
-              Telefon: 0000 000000
+              Telefon:(06831) 443-0
               <br />
               E-Mail: <a href="mailto:{email)}">{email}</a>
               <br />
@@ -43,7 +39,7 @@ const Component = ({ email }) => {
               style={{ marginBottom: 10, marginLeft: 20 }}
               target="_contacts"
               alt="Logo Auftraggeber"
-              height="150"
+              height="100"
               src={customerLogo}
             />
           </p>
@@ -52,24 +48,19 @@ const Component = ({ email }) => {
             <tbody>
               <tr>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>Bearbeitung des Starkregenrisikomanagement</strong>
+                  <strong>Simulationsberechnungen</strong>
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>
-                    Aufbau und Bereitstellung AIS Starkregenvorsorge
-                  </strong>
-                </td>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>Konzeption des AIS Starkregenvorsorge</strong>
+                  <strong>Visualisierung und technische Umsetzung</strong>
                 </td>
               </tr>
               <tr>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <img
                     target="_contacts"
-                    alt="Logo Pecher AG"
+                    alt="Logo izes"
                     height="40"
-                    src={pecherLogo}
+                    src={izesLogo}
                   />
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
@@ -80,43 +71,28 @@ const Component = ({ email }) => {
                     src={cismetLogo}
                   />
                 </td>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <img
-                    target="_contacts"
-                    alt="Logo KLAS Bremen"
-                    height="40"
-                    src={klasLogo}
-                  />
-                </td>
               </tr>
               <tr>
                 <td style={{ verticalAlign: "bottom" }}>
-                  Dr. Pecher AG
+                  izes gGmbH
                   <br />
-                  Klinkerweg 5<br />
-                  40699 Erkrath
+                  Altenkesseler Straße 17, Geb. A1
                   <br />
-                  Telefon: 02104 93 96-0
+                  66115 Saarbrücken
                   <br />
-                  E-Mail:{" "}
-                  <a href="mailto:mail.erkrath@pecher.de">
-                    mail.erkrath@pecher.de
-                  </a>
+                  Telefon: +49 681 - 844 972-0
+                  <br />
+                  E-Mail: <a href="mailto:izes@izes.de">izes@izes.de</a>
                 </td>
                 <td style={{ verticalAlign: "bottom" }}>
                   cismet GmbH
                   <br />
                   <br />
-                  Tholey ▪️ Saarbrücken <br />
+                  Saarlouis ▪️ Saarbrücken <br />
                   Telefon: 0681 965 901-20
                   <br />
                   <a href="https://cismet.de/" title={"and it just works"}>
                     https://cismet.de/
-                  </a>
-                </td>
-                <td style={{ verticalAlign: "bottom" }}>
-                  <a href="https://www.klas-bremen.de/">
-                    https://www.klas-bremen.de/
                   </a>
                 </td>
               </tr>

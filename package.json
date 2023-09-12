@@ -1,8 +1,8 @@
 {
-  "name": "@cismet-collab/ais-generic-texts",
-  "description": "base text library for creating rainhazardmaps help components",
+  "name": "@cismet-collab/rhm-saarlouis-texts",
+  "description": "texts for rhm saarlouis",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "homepage": ".",
   "main": "index.js",
   "module": "index.js",
@@ -10,7 +10,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@cismet-collab/rainhazardmaps-base-texts": "^1.0.0",
+    "@cismet-collab/rainhazardmaps-base-texts": "^1.1.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
