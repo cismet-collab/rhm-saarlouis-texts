@@ -8,14 +8,14 @@ function App() {
   const version = "0.test.0";
   const reactCismapRHMVersion = "0.test.0";
   const footerLogoUrl = undefined;
-  const email = "starkregen@aarlouis.de";
+  const email = "starkregen@saarlouis.de";
   const { setAppMenuVisible } = useContext(UIDispatchContext);
   useEffect(() => {
     setAppMenuVisible(true);
   }, [setAppMenuVisible]);
   return (
     <div>
-      {"@cismet-collab/rhm-aaarlouis-texts@" +
+      {"@cismet-collab/rhm-saarlouis-texts@" +
         getLibVersion() +
         (isDirty()
           ? " (dirty: release before usage[" + getLibDescribe() + "])"
