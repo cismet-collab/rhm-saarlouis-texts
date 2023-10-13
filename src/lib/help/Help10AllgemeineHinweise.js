@@ -87,16 +87,6 @@ const Component = () => {
             Klimawandels" gefördert. Das Projekt wurde im April 2022
             abgeschlossen.
           </p>
-
-          <p>
-            Die Stadt Saarlouis hat sich nach Projektende dazu entschlossen sich
-            weiterhin der Thematik „Anpassung an den Klimawandel“ zu widmen und
-            initiierte das Folgeprojekt KAN-T II, welches durch LEADER gefördert
-            wird. KAN-T II legt den Fokus auf die Information, Sensibilisierung
-            und Beratung der Bürgerinnen und Bürger der Stadt Saarlouis. Ein
-            essentieller Baustein von KAN-T II ist diese Visualisierung der
-            Starkregengefahrenkarte auf der Homepage der Stadt Saarlouis.
-          </p>
         </div>
       }
     />
