@@ -2,7 +2,7 @@
   "name": "@cismet-collab/rhm-saarlouis-texts",
   "description": "texts for rhm saarlouis",
   "license": "MIT",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": ".",
   "main": "index.js",
   "module": "index.js",
