@@ -90,7 +90,7 @@ const Component = () => {
               je nach Randbedingungen in der Realität auch etwas geringere oder
               höhere Wassertiefen auf der Geländeoberfläche zur Folge haben.
             </strong>{" "}
-            Die unterschiedlichen Betroffenheiten im Gemeindegebiet lassen sich
+            Die unterschiedlichen Betroffenheiten im Stadtgebiet lassen sich
             aber sehr gut mit den Ergebnisdarstellungen aufzeigen. Je nach
             Betroffenheit und Schadenspotential lassen sich auf dieser Grundlage
             Vorsorgemaßnahmen bewerten.

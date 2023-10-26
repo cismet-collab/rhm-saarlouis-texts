@@ -17,7 +17,7 @@ const Component = () => {
           <p>
             Die Starkregengefahrenkarte der Stadt Saarlouis stellt einerseits
             die maximalen Wassertiefen anderseits die maximalen
-            Fließgeschwindigkeiten im Gemeindegebiet dar, die im Verlauf eines
+            Fließgeschwindigkeiten im Stadtgebiet dar, die im Verlauf eines
             simuliertes Starkregenereignisses berechnet wurden. Über die
             Schaltfläche „maximale Wassertiefen“ bzw. „maximale
             Fließgeschwindigkeiten“ kann zwischen den beiden Ansichten
