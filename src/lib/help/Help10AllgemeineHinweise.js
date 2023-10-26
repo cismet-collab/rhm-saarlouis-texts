@@ -33,10 +33,26 @@ const Component = () => {
 
           <p>
             Das Ergebnis der Simulation ist von der Dauer und Intensität des
-            Regens abhängig. Das dargestellte Szenario zeigt ein
-            Niederschlagsereignis, das laut Statistik alle 100 Jahre auftreten
-            kann, mit einer Niederschlagsmenge von 56,4 mm über eine Dauer von 1
-            Stunde (SRI 7). Die Simulationszeit beträgt 3 Stunden.
+            Regens abhängig. Die dargestellten Szenarien zeigen
+            Niederschlagsereignisse über einen Zeitraum von 1 Stunde mit
+            unterschiedlichen Intensitäten. Die dargestellten Szenarien sind:
+          </p>
+          <p>
+            <ul>
+              <li>
+                Stärke 6: Niederschlagsmenge: 46,8 l/m² (SRI 6); Statistische
+                Wiederkehrzeit: 50 Jahre
+              </li>
+              <li>
+                Stärke 7: Niederschlagsmenge: 52,3 l/m² (SRI 7); Statistische
+                Wiederkehrzeit: 100 Jahre
+              </li>
+              <li>
+                Stärke 10: Niederschlagsmenge: 68,0 l/m² (SRI 10); Extremer
+                Starkregen: 1,3-fachen Niederschlagsmenge des SRI 7 Ereignisses
+              </li>
+            </ul>
+            Die Simulationszeit beträgt 3 Stunden.
           </p>
           <p>
             Der Farbverlauf für die <strong>Wassertiefen</strong> nutzt die
@@ -80,12 +96,26 @@ const Component = () => {
 
           <p>
             Die Starkregengefahrenkarte der Stadt Saarlouis wurde im Rahmen des
-            Projektes ... durch die IZES gGmbH erarbeitet. Das Projekt KAN-T
-            wurde durch das Bundesministerium für Umwelt, Naturschutz, nukleare
-            Sicherheit und Verbraucherschutz (BMUV) über die
+            Projektes STARK – Strategien und Anpassungsmaßnahmen zur Erhöhung
+            der Resilienz gegenüber den Folgen des Klimawandels in der
+            Kreisstadt Saarlouis – durch die IZES gGmbH erarbeitet. Das Projekt
+            STARK wurde durch das Bundesministerium für Umwelt, Naturschutz,
+            nukleare Sicherheit und Verbraucherschutz (BMUV) über die
             Förderrichtlinie "Maßnahmen zur Anpassung an die Folgen des
-            Klimawandels" gefördert. Das Projekt wurde im April 2022
-            abgeschlossen.
+            Klimawandels" gefördert. Die Projektlaufzeit ist vom Oktober 2020
+            bis Dezember 2023.
+          </p>
+          <p>
+            Das Projekt STARK legt großen Wert auf die Einbindung aller am
+            Prozess beteiligten Akteure sowie auf die Information,
+            Sensibilisierung und Beratung der Bürgerinnen und Bürger Saarlouis.
+            Daher wurde im Rahmen des Projektes diese Visualisierung der
+            Starkregengefahrenkarte auf der Homepage der Stadt Saarlouis
+            angestrebt. Finanziert wurde die Umsetzung dieser Visualisierung
+            durch Fördermittel des Ministeriums für Umwelt, Klima, Mobilität,
+            Agrar und Verbraucherschutz des Saarlandes im Rahmen der Richtlinie
+            zur Förderung von Maßnahmen des Hochwasser- und
+            Starkregenrisikomanagements.
           </p>
         </div>
       }

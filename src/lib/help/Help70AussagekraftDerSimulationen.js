@@ -82,7 +82,7 @@ const Component = () => {
 
           <p>
             <strong>
-              Die Modellannahmen, eine gemeindegebietsweite gleiche
+              Die Modellannahmen, eine stadtgebietsweite gleiche
               Niederschlagsbelastung und Fehler im Geländemodell können dazu
               führen, dass es zu Abweichungen zwischen den
               Simulationsergebnissen und beobachteten Überflutungen infolge von
@@ -109,11 +109,11 @@ const Component = () => {
           <p>
             Sowohl die Datengrundlagen für das Simulationsmodell als auch die
             Simulationsergebnisse sind durch Ortsbegehungen und die kommunalen
-            Vertreterinnen und Vertreter verifiziert sowie in Expertenworkshops
-            des ... zur Diskussion gestellt worden. Neben Experten im Bereich
-            Wasserwirtschaft und Wasserbau wurden auch der Katastrophenschutz,
-            die örtliche Feuerwehr und das Technische Hilfswerk in die
-            Evaluierung der Ergebnisse eingebunden.
+            Vertreter:innen verifiziert sowie in Expertenworkshops bzw.
+            Werkstattgesprächen zur Diskussion gestellt worden. Neben Experten
+            im Bereich Wasserwirtschaft und Wasserbau wurden auch beispielsweise
+            die örtliche Feuerwehr in die Evaluierung der Ergebnisse
+            eingebunden.
           </p>
         </div>
       }

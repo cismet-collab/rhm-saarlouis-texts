@@ -30,11 +30,11 @@ const Component = () => {
 
           <p>
             Das simulierte Starkregenereignis wurde anhand einer
-            2DOberflächenabflussmodellierung mit der Software FoodArea für die
+            2D-Oberflächenabflussmodellierung mit der Software FoodArea für die
             hydrologischen Einzugsgebiete der Stadt Saarlouis generiert.
             Wesentliche Grundlage ist das Digitale Geländemodell mit einer
             Auflösung von 1 x 1 Meter (DGM1). Dieses DGM1 wird mittels
-            flächenhaften Höhenmessungen des Geländes, die das Saarland
+            flächenhafter Höhenmessungen des Geländes, die das Saarland
             turnusmäßig per Laserscanning aus einem Flugzeug heraus durchführt
             (Zeitpunkt der Aufnahme 2016), ermittelt. Für die Simulation wurde
             das DGM1 mittels Digitalem Oberflächenmodel (DOM1; flächenhaften

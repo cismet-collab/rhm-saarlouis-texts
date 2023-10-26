@@ -17,8 +17,8 @@ const Component = ({ uiState, uiStateActions }) => {
           <p>
             Die berechnete Simulation wurde mit "künstlichen" Modellregen
             durchgeführt. Bei dieser Simulation erfolgt eine flächenhafte
-            Beregnung des gesamten Gebiets mit einer statistisch ermittelten
-            oder angenommenen Niederschlagsbelastung. Der verwendete{" "}
+            Beregnung des gesamten Stadtgebiets mit einer statistisch
+            ermittelten oder angenommenen Niederschlagsbelastung. Der verwendete{" "}
             <strong>Modellregen</strong> wird durch die Dauer (in Stunden,
             abgekürzt "h"), die in dieser Zeit fallende Regenmenge (in Liter pro
             Quadratmeter, abgekürzt "l/m²") definiert. Der Modellregen hat eine
@@ -38,16 +38,25 @@ const Component = ({ uiState, uiStateActions }) => {
           </p>
 
           <p>
-            Mit diesen Erläuterungen lässt sich das simulierte Szenariowie folgt
-            zusammenfassen:
+            Mit diesen Erläuterungen lassen sich die simulierten Szenarien wie
+            folgt zusammenfassen:
           </p>
 
           <ul>
             <li>
+              <strong>SRI 6:</strong> außergewöhnliches Starkregenereignis,
+              50-jährliche Wiederkehrzeit nach KOSTRA-DWD-2020 mit einer Dauer
+              von 60 min, Niederschlagssumme von 46,8 l/m², Anfangsintensität
+            </li>
+            <li>
               <strong>SRI 7:</strong> außergewöhnliches Starkregenereignis,
               100-jährliche Wiederkehrzeit nach KOSTRA-DWD-2020 mit einer Dauer
-              von 60 Minuten, Niederschlagssumme von 56,3 l/m²,
-              Anfangsintensität
+              von 60 min, Niederschlagssumme von 52,3 l/m², Anfangsintensität
+            </li>
+            <li>
+              <strong>SRI 10:</strong> extremes Starkregenereignis, 1,3-fache
+              Niederschlagsmenge des SRI 7 mit einer Dauer von 60 min,
+              Niederschlagssumme von 68,0 l/m², Anfangsintensität
             </li>
           </ul>
         </div>
