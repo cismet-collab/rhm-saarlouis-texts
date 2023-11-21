@@ -50,7 +50,7 @@ const Component = () => {
               className="renderAsLink"
               onClick={() => setAppMenuActiveMenuSection("szenarien")}
             >
-              Simuliertes Szenario
+              Simulierte Szenarien
             </a>
             .
           </p>

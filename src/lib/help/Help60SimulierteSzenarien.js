@@ -10,12 +10,12 @@ const Component = ({ uiState, uiStateActions }) => {
       uiState={uiState}
       uiStateActions={uiStateActions}
       sectionKey="szenarien"
-      sectionTitle="Simuliertes Szenario"
+      sectionTitle="Simulierte Szenarien"
       sectionBsStyle="info"
       sectionContent={
         <div>
           <p>
-            Die berechnete Simulation wurde mit "künstlichen" Modellregen
+            Die berechneten Simulationen wurde mit "künstlichen" Modellregen
             durchgeführt. Bei dieser Simulation erfolgt eine flächenhafte
             Beregnung des gesamten Stadtgebiets mit einer statistisch
             ermittelten oder angenommenen Niederschlagsbelastung. Der verwendete{" "}
